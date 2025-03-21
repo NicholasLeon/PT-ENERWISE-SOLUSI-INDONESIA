@@ -1216,9 +1216,12 @@ h1 {
         align-items: left; 
         padding: 20px;
     }
+    .contact-form{
+        margin-left: 10px;
+    }
     .contact-form input, 
     .contact-form textarea {
-        width: 100%; /* Pastikan input dan textarea memenuhi form */
+        width: 100%;
         padding: 12px;
         font-size: 16px;
         border: 1px solid black;
@@ -1343,6 +1346,9 @@ h1 {
         align-items: left; 
         padding: 20px;
     }
+    .contact-form{
+        margin-left: 50px;
+    }
     .contact-form input, 
     .contact-form textarea {
         width: 100%;
@@ -1351,6 +1357,7 @@ h1 {
         border: 1px solid black;
         border-radius: 8px;
         margin-bottom: 10px;
+}
 }
 
 
@@ -1390,7 +1397,6 @@ h1 {
         right: 15px;
         top: 20px;
     }
-}
 }
 
 
