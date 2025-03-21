@@ -1313,7 +1313,21 @@ h1 {
         transform: scale(0.9);
         transform-origin: center;
     }
-
+    .footer-container {
+        flex-direction: column; 
+        text-align: left;
+    }
+    .footer-left,
+    .footer-center,
+    .footer-right {
+        width: 90%;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .footer-logo {
+        width: 250px;
+        height: auto;
+    }
     .banner img {
         width: 100%; 
         height: 100%;
