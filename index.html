@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Enerwise Solusi Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <img src="image/logo.png" class="logo">
+    <span class="hamburger-menu" onclick="openNav()">&#9776;</span>
+</nav>
+
+<div id="overlay" class="overlay" onclick="closeNav()"></div>
+
+<!-- Side Navigation -->
+<div id="mySidenav" class="sidenav">
+    <span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+    <a href="#">Home</a>
+    <a href="#">Products</a>
+    <div class="overlay"></div>
+
+    <div class="dropdown">
+        <a href="javascript:void(0)" class="dropdown-btn" onclick="toggleDropdown()">Services &#9662;</a>
+        <div class="dropdown-content">
+            <ul>
+            <li><a href="#">Electrical Products</a></li>
+            <li><a href="#">Automation Products</a></li>
+            <li><a href="Services/Electrical Services.html">Electrical Services</a></li>
+            <li><a href="#">Automation Services</a></li>
+        </ul>
+        </div>
+    </div>
+    <a href="projects.html">Project</a>
+</div>
+
+<div class="landing">
+    <div class="banner">
+        <img src="image/ENWS banner 4.png" alt="Banner 1">
+        <a href="#scrollAboutUs" class="aboutUsBanner">About Us</a>
+    </div>
+    <div class="banner">
+        <img src="image/ENWS Banner 1.png" alt="Banner 2">
+    </div>
+    <div class="banner">
+        <img src="image/ENWS banner 3.png" alt="Banner 3">
+        <a href="#" class="productsBanner">Products</a>
+        </div>
+    </div>
+
+    <button class="arrow prev">&#10094;</button>
+    <button class="arrow next">&#10095;</button>
+</div>
+
+    <!-- WhatsApp Icon -->
+<a href="https://api.whatsapp.com/send/?phone=628111599177&text&type=phone_number&app_absent=0" class="whatsapp-icon">
+        <img src="icon/whatsapp logo.svg" alt="WhatsApp">
+</a>
+
+<div class="client-section">
+    <h3 class="client-title">Trusted by big companies </h3> 
+        <div class="client-list">
+            <img src="clients/a-plus.png" alt="A-Plus">
+            <img src="clients/adr.png" alt="Adr Group">
+            <img src="clients/argo-pantes.png" alt="Argo Pantes">
+            <img src="clients/cimory.png" alt="Cimory">
+            <img src="clients/grc-board.png" alt="Grc Board">
+            <img src="clients/jayatama.png" alt="Jayatama">
+            <img src="clients/jembo.png" alt="Jembo">
+            <img src="clients/kalbe.png" alt="Kalbe">
+            <img src="clients/mahakam.png" alt="Mahakam">
+            <img src="clients/mayora.png" alt="Mayora">
+            <img src="clients/molex.png" alt="Molex">
+            <img src="clients/nutrifood.png" alt="Nutrifood">
+            <img src="clients/pakuwon.png" alt="Pakuwon">
+            <img src="clients/pnre.png" alt="Pertamina Power">
+            <img src="clients/pyridam.png" alt="Pyridam">
+            <img src="clients/seamec.png" alt="Seamec">
+            <img src="clients/shell.png" alt="Shell">
+            <img src="clients/sreeya.png" alt="Sreeya">
+            <img src="clients/summarecon.png" alt="Summarecon">
+            <img src="clients/sun.png" alt="Sun">
+            <img src="clients/taiyo.png" alt="Taiyo">
+            <img src="clients/tangcity.png" alt="Tangcity">
+            <img src="clients/toto.png" alt="Toto">
+            <!-- duplicate for loop -->
+            <img src="clients/a-plus.png" alt="A-Plus">
+            <img src="clients/adr.png" alt="Adr Group">
+            <img src="clients/argo-pantes.png" alt="Argo Pantes">
+            <img src="clients/Cimory.png" alt="Cimory">
+            <img src="clients/grc-board.png" alt="Grc Board">
+            <img src="clients/jayatama.png" alt="Jayatama">
+            <img src="clients/Jembo.png" alt="Jembo">
+            <img src="clients/kalbe.png" alt="Kalbe">
+            <img src="clients/mahakam.png" alt="Mahakam">
+            <img src="clients/mayora.png" alt="Mayora">
+            <img src="clients/molex.png" alt="Molex">
+            <img src="clients/nutrifood.png" alt="Nutrifood">
+            <img src="clients/pakuwon.png" alt="Pakuwon">
+            <img src="clients/pnre.png" alt="Pertamina Power">
+            <img src="clients/pyridam.png" alt="Pyridam">
+            <img src="clients/seamec.png" alt="Seamec">
+            <img src="clients/shell.png" alt="Shell">
+            <img src="clients/sreeya.png" alt="Sreeya">
+            <img src="clients/summarecon.png" alt="Summarecon">
+            <img src="clients/sun.png" alt="Sun">
+            <img src="clients/taiyo.png" alt="Taiyo">
+            <img src="clients/tangcity.png" alt="Tangcity">
+            <img src="clients/toto.png" alt="Toto">
+        </div>
+    </div>
+</div>
+      
+<section class="aboutUs">
+    <div class="our-company">
+        <div id="scrollAboutUs"></div>
+        <h2>Our Company</h2>
+            <p><br>PT Enerwise Solusi Indonesia is a company that specializes in providing smart, simple, and user-friendly solutions for various applications of
+                electrical and automation monitoring and control systems. The
+                company aims to simplify industrial solutions to a more user-friendly
+                product by "finding simplicity".<br>
+                <br>
+                The company was established in 2017 and is based in Tangerang,
+                Banten, Indonesia. The company's mission is to be the most preferred electrical and automation partner.</p>
+                <a href="projects.html">
+                <button class="button-aboutUs" onclick="projects.html">Our Projects</button>
+                </a>
+        </div>
+        <div class="component-aboutUs">
+            <img src="image/automation.png" alt="Automation">
+        </div>
+</section>
+
+<div class="services-Main">
+    <h2>Services</h2>
+        <div class="servicesList">
+            <a href="electrical-products1" class="service-item">
+                <img src="icon/electricity.png" alt="Electrical Products">
+                <h3>Electrical Products</h3>
+            </a>
+            <a href="automation-products1" class="service-item">
+                <img src="icon/automation products.png" alt="Automation Products">
+                <h3>Automation Products</h3>
+            </a>
+            <a href="electrical-services1" class="service-item">
+                <img src="icon/electrical services.png" alt="Electrical Services">
+                <h3>Electrical Services</h3>
+            </a>
+            <a href="automation-services1" class="service-item">
+                <img src="icon/automated-service.png" alt="Automation Services">
+                <h3>Automation Services</h3>
+            </a>
+        </div>
+ </div>
+
+<div class="comments">
+    <h2>What they said</h2>
+        <div class="comments-container">
+        <div class="comments-card">
+            <p>Lorem ipsum dolor sit amet consectetur. Imperdiet mauris dui maecenas viverra in. Eros id senectus amet quam ut nibh in ligula.
+                Cras senectus massa arcu pharetra augue pretium sagittis nunc ipsum. Condimentum sit aliquet aliquet consectetur mauris convallis.
+            </p>
+            <div class="comment-author">
+                PT Loren
+            </div>
+        </div>
+        <div class="comments-card">
+            <p>Lorem ipsum dolor sit amet consectetur. Tristique nullam pharetra nisi tortor arcu. Egestas in tellus diam porttitor augue. 
+                Venenatis et sit diam rhoncus vitae. Vitae viverra id iaculis morbi natoque metus. Amet aliquet mus mauris faucibus vulputate 
+                arcu cum ligula. Cursus est sed pellentesque sollicitudin ante ullamcorper. Semper gravida aenean tristique augue. Dictum 
+                pellentesque eget nulla gravida commodo suspendisse sagittis.
+            </p>
+            <div class="comment-author">
+                PT Ipsum
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="contact-us">
+    <div class="contact-container">
+        <div class="text-contactUs">
+            <h3>Contact Us</h3>
+            <h2>Get in touch with us</h2>
+                <div class="social-icons">
+                    <a href="https://api.whatsapp.com/send/?phone=628111599177&text&type=phone_number&app_absent=0" class="whatsapp-contact">
+                        <img src="icon/whatsapp logo.svg" alt="WhatsApp">
+                    </a>
+                    <a href="https://www.linkedin.com/company/enerwisesolusiindonesia/?originalSubdomain=id" class="linkedin-contact">
+                        <img src="icon/LinkedIn_icon.svg.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <label for="full-name"></label>
+                <input type="text" id="full-name" name="full-name" placeholder="Full name">
+    
+                <label for="phone-number"></label>
+                <input type="tel" id="phone-number" name="phone-number" placeholder="Phone number">
+    
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="Email">
+    
+                <label for="message"></label>
+                <textarea id="message" name="message" placeholder="Message"></textarea>
+    
+                <button type="submit" class="send-email">Send</button>
+            </form>
+    </div>
+</div>
+    
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-left">
+            <img src="image/logo.png" alt="logo-Footer" class="footer-logo">
+                <p>
+                    <img src="icon/iconmonstr-location-pin-thin.svg" alt="iconMap-footer" class="footer-icon">
+                    Ruko Golden Boulevard Blok S No.17, Lengkong Karya, Kec. Serpong Utara, Kota Tangerang Selatan, Banten.
+                </p>
+                <p>
+                    <img src="icon/iconmonstr-phone-thin.svg" alt="iconPhone-footer" class="footer-icon">
+                    021-5316-3290
+                </p>
+                <p>
+                    <img src="icon/iconmonstr-mail-thin.svg" alt="iconMail-footer" class="footer-icon">
+                    info@enerwise-indonesia.com
+                </p>
+    </div>
+
+    <div class="footer-center">
+        <h3>Navigation</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
+    </div>
+    
+    <div class="footer-right">
+        <h3>Services</h3>
+            <ul>
+                <li><a href="#">Electrical Products</a></li>
+                <li><a href="#">Automation Products</a></li>
+                <li><a href="#">Electrical Services</a></li>
+                <li><a href="#">Automation Services</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>© 2025 PT Enerwise Solusi Indonesia. All rights reserved</p>
+    </div>
+</footer>
+    
+<script src="script.js"></script>
+</body>
+</html>
